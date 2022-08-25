@@ -153,17 +153,6 @@ def process_login():
         return redirect('/login')
 
 
-    # if user.password != password:
-    #     flash("Incorrect password.")
-    #     return redirect("/login")
-
-    # session["logged_in_customer_email"] = user.email
-    # flash("Logged in.")
-    # return redirect("/melons")
-
-        
-
-
     # The logic here should be something like:
     #
     # - get user-provided name and password from request.form
